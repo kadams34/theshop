@@ -1,0 +1,311 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1440px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .subscribtion-form input {
+        width: 68%;
+    }
+
+    .portfolio-content > p {
+        font-size: 13px;
+    }
+
+    .slider-active .owl-nav {
+        position: absolute;
+        right: 0;
+        color: #fff;
+        top: 80%;
+        left: 0;
+        text-align: center;
+    }
+
+    .slider-active .owl-dots {
+        display: none;
+    }
+
+    .cowndown-content h1 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .slider-content h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .video-play-icon {
+        padding: 165px 0;
+    }
+
+    .portfolio-content {
+        margin-top: 30px;
+    }
+
+    .portfolio-list {
+        padding: 0 92px;
+    }
+
+    .portfolio-list button {
+        margin-bottom: 10px;
+    }
+
+    .portfolio-list button:nth-child(6),
+    .portfolio-list button:nth-child(7),
+    .portfolio-list button:nth-child(8) {
+        margin-bottom: 0;
+    }
+
+    .team-author-info h5 {
+        font-size: 16px;
+    }
+
+    .discover-our-story {
+        padding-bottom: 100px;
+    }
+
+
+
+    .discover-content {
+        padding: 35px 32px;
+    }
+
+    .discover-content h2 {
+        font-size: 24px;
+    }
+
+    .discover-thumb-one {
+        position: absolute;
+        right: 0;
+        width: 80%;
+        bottom: 0;
+        top: auto;
+        left: auto;
+    }
+
+    .discover-content p {
+        margin: 20px 0;
+    }
+
+    .social-icons ul li a {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .news-content {
+        padding: 0;
+    }
+
+    .news-content h4 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .news-content p {
+        margin: 15px 0
+    }
+
+    .cowndown-content {
+        padding: 70px 0;
+    }
+
+    .cowndown-content h1 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .cowndown-content .single-count {
+        margin-bottom: 20px;
+        width: 96px;
+        height: 105px;
+        padding-top: 18px;
+        font-size: 20px;
+    }
+
+    .cowndown-content .single-count:nth-child(3),
+    .cowndown-content .single-count:nth-child(4) {
+        margin-bottom: 0;
+    }
+
+    .testimonial-active.owl-carousel .owl-nav button.owl-prev {
+        left: 15px;
+    }
+
+    .testimonial-active.owl-carousel .owl-nav button.owl-next {
+        right: 15px;
+    }
+
+    .mobile-menu {
+        position: relative;
+        left: 15px;
+    }
+
+    .mean-bar {
+        position: absolute !important;
+        right: 15px;
+        top: 23px;
+    }
+
+    .fixed-hdr .logo,
+    .logo {
+        width: 60px;
+    }
+
+    .site-header {
+        padding-top: 10px;
+    }
+
+    .single-portfolio-item img {
+        width: 100%;
+    }
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+    .slider-content h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .discover-content {
+        padding: 30px 12px;
+        margin-bottom: 30px;
+    }
+
+    .cowndown-content {
+        padding: 80px 0
+    }
+
+    .news-content {
+        margin-top: 30px;
+    }
+
+    .cowndown-content .single-count {
+        margin-bottom: 20px;
+        width: 96px;
+        height: 105px;
+        padding-top: 18px;
+        font-size: 20px;
+    }
+
+    .discover-thumb-one {
+        position: absolute;
+        right: 0;
+        width: 80%;
+        bottom: 0;
+        top: auto;
+        left: auto;
+    }
+
+    .discover-content h2 {
+        font-size: 20px;
+    }
+
+    .discover-content p {
+        margin: 20px 0;
+    }
+
+    .section-title h2 {
+        font-size: 26px;
+    }
+
+    .portfolio-list button {
+        margin: 0 10px 10px 0;
+    }
+
+    .single-testimonial-items {
+        padding: 0;
+    }
+
+    .portfolio-list {
+        margin-bottom: 40px;
+    }
+
+    .single-testimonial-items span {
+        font-size: 50px;
+    }
+
+    .discover-our-story,
+    .our-special-menu,
+    .team-area,
+    .recent-news,
+    .reservation-area,
+    .site-footer {
+        padding: 80px 0;
+    }
+
+    .cowndown-area {
+        margin-bottom: 80px;
+    }
+
+    .testimonial-area {
+        padding-bottom: 80px;
+    }
+
+    .cowndown-content h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .mobile-menu {
+        position: relative;
+        left: 15px;
+    }
+
+    .site-header {
+        padding-top: 10px;
+    }
+
+    .mean-bar {
+        position: absolute !important;
+        right: 15px;
+        top: -8px;
+    }
+
+    .fixed-hdr .mean-bar {
+        top: -18px;
+    }
+
+
+    .fixed-hdr .logo,
+    .logo {
+        width: 60px;
+    }
+
+    .single-portfolio-item img {
+        width: 100%;
+    }
+
+    .portfolio-content {
+        margin-top: 20px;
+    }
+
+    .play-btn {
+        line-height: 30px;
+        padding: 30px;
+    }
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+
+    .cowndown-content .single-count:nth-child(2),
+    .cowndown-content .single-count:nth-child(4) {
+        margin-right: 0;
+    }
+    
+    .cowndown-content .single-count{
+        margin-right: 50px;
+    }
+}

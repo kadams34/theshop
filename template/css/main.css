@@ -1,0 +1,1028 @@
+/*
+Template Name: 
+Template URI: http://coderboys.net/
+Author: CoderHut
+Author URI: http://coderboys.net/
+Version: 1.0
+Tags: 
+*/
+
+
+/*  ---------------------------------------------------------------------------
+    TAble Of Contents
+    ---------------------------------------------------------------------------
+
+*   01. GLobal Area
+*   02. Site Header
+*   03. Slider Area
+*   04. Discover Our Story
+*   05. Video Bg Area
+*   06. Our Special Menu
+*   07. Cowndown Area
+*   08. Testimonial Area
+*   09. Team Area
+*   10. Recent News
+*   11. Reservation Area
+*   12. Site Footer
+*   13. Copy Right Area
+*/
+
+/**
+*
+* ---------------------------------------------------------------------------
+# [Typography]
+
+# Body copy:            'Montserrat', sans-serif
+# Heading:              'Playfair Display', sans-serif
+# Input, textarea:      'Montserrat', sans-serif
+# Links:                'Playfair Display', sans-serif
+
+* --------------------------------------------------------------------------- 
+*
+*/
+
+
+/*
+* ---------------------------------------------------------------------------
+* 01. GLobal Area
+* ---------------------------------------------------------------------------
+*/
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    color: #666666;
+    position: relative;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    line-height: 1.2;
+    font-family: 'Playfair Display', serif;
+    color: #393939;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+iframe {
+    max-width: 100%;
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.media-right img,
+.media-left img {
+    max-width: inherit;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.theme-default-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #B7882D;
+    background: #fff;
+    padding: 20px 25px;
+    transition: .5s;
+}
+
+.theme-default-btn:hover {
+    background: #B7882D;
+    color: #fff;
+}
+
+
+a.load-more-btn, .reservation-form button {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #B7882D;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+/* Section Style */
+
+.sec-overlay {
+    position: relative;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    z-index: 1;
+}
+
+.sec-overlay:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .75;
+    background-color: #000;
+    z-index: -1;
+}
+
+/* Basic margin padding */
+
+.m-0 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.p-0 {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+/*Animated Css*/
+.animated-04s {
+    animation-delay: 0.4s;
+}
+
+.animated-08s {
+    animation-delay: 0.8s;
+}
+
+.animated-2s {
+    animation-delay: 2s;
+}
+
+.fixed-hdr.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    z-index: 9999;
+    padding-top: 0;
+}
+
+.fixed-hdr .logo {
+    padding: 10px 0;
+    width: 60px;
+}
+
+.fixed-hdr .theme-default-btn {
+    padding: 15px 20px;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 02. Site Header / .site-header
+* ---------------------------------------------------------------------------
+*/
+.site-header {
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    left: 0;
+    top: 0;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 45px;
+    position: relative;
+}
+
+.main-menu ul li:first-child {
+    margin-left: 0;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    transition: .5s;
+}
+
+.main-menu .nav {
+    display: block;
+}
+
+.main-menu ul li a.nav-link {
+    padding: 0;
+}
+
+.main-menu ul li a:hover,
+.main-menu ul li a.active {
+    color: #B7882D;
+}
+
+.main-menu ul li a:before,
+.main-menu ul li a.active:before {
+    position: absolute;
+    content: '';
+    left: -35px;
+    top: 50%;
+    width: 25px;
+    height: 1px;
+    background: #B7882D;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.main-menu ul li a:hover:before,
+.main-menu ul li a.active:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 03. Slider Area / .slider-area
+* ---------------------------------------------------------------------------
+*/
+.single-slider-item {
+    height: 100vh;
+}
+
+.slider-content {
+    color: #fff;
+}
+
+.slider-content h1 {
+    font-size: 70px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.slider-active .owl-dots {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 6.3%;
+}
+
+.slider-active .owl-dots button {
+    background: #fff;
+    width: 35px;
+    height: 1px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.slider-active .owl-dots button:last-child {
+    margin-bottom: 0;
+}
+
+.slider-active .owl-dots button.active {
+    background: #B7882D;
+    width: 40px;
+}
+
+.slider-active .owl-nav {
+    position: absolute;
+    right: 6.3%;
+    top: 50%;
+    color: #fff;
+    transform: translateY(-50%);
+}
+
+.slider-active .owl-nav button {
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 13px;
+    transition: .5s;
+}
+
+.slider-active .owl-nav button:hover {
+    color: #B7882D;
+}
+
+.slider-active .owl-nav button.owl-next:before {
+    position: absolute;
+    left: -12px;
+    top: 4px;
+    width: 1px;
+    height: 14px;
+    background: #B7882D;
+    content: "";
+}
+
+
+.slider-area {
+  position: relative;
+}
+.bottom-nxt-section {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 60px;
+  width: 2px;
+  height: 60px;
+  background: #fff;
+  z-index: 99;
+}
+
+@keyframes jump {
+  0% {
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+  40% {
+    transform: translate3d(0, 30%, 0) scale3d(0.7, 1.5, 1);
+  }
+  100% {
+    transform: translate3d(0, 100%, 0) scale3d(1.5, 0.7, 1);
+  }
+}
+.bottom-nxt-section {
+  transform-origin: 50% 50%;
+  animation: jump 0.5s linear alternate infinite;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 04. Discover Our Story / .discover-our-story
+* ---------------------------------------------------------------------------
+*/
+
+.discover-content {
+    background: #FBF4E6;
+    text-align: center;
+    padding: 40px 41px;
+    line-height: 24px;
+}
+
+.discover-content h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.discover-content a {
+    display: inline-block;
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: underline #D6D0C6;
+    font-family: 'Playfair Display', serif;
+}
+
+.discover-img {
+    position: relative;
+}
+
+.discover-thumb-one {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.discover-img img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 05. Video Bg Area / .discover-our-story
+* ---------------------------------------------------------------------------
+*/
+
+.video-play-icon {
+    padding: 191px 0;
+}
+
+.play-btn {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 38px;
+    color: #fff !important;
+    border: 1px solid #fff;
+    padding: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.play-btn:hover {
+    color: #fff;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 06. Our Special Menu / .our-sprcial-menu
+* ---------------------------------------------------------------------------
+*/
+
+.portfolio-list button {
+    margin-right: 30px;
+    line-height: 20px;
+    transition: .5s;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.portfolio-list button:last-child {
+    margin-right: 0;
+}
+
+.portfolio-list button:hover,
+.portfolio-list button.active {
+    color: #B7882D;
+}
+
+.portfolio-list button:after,
+.portfolio-list button.active:after {
+    position: absolute;
+    content: "";
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1px;
+    width: 5px;
+    transition: .5s;
+    background: #B7882D;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.portfolio-list button:hover::after,
+.portfolio-list button.active:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio-content > p {
+    font-weight: 600;
+    color: #16191E;
+}
+
+.portfolio-content > p span,
+.slider-content h1 span {
+    color: #B7882D;
+}
+
+
+/*
+* ---------------------------------------------------------------------------
+* 07. Cowndown Area / .cowndown-area
+* ---------------------------------------------------------------------------
+*/
+.cowndown-area {
+    background-color: #FBF4E6;
+    position: relative;
+}
+
+.cowndown-left-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: calc(50% - 16px);
+    height: 100%;
+    background-image: url(../img/bg/cowndown-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cowndown-content {
+    padding: 137px 0;
+}
+
+.cowndown-content h1 {
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.cowndown-content .single-count {
+    display: inline-block;
+    text-align: center;
+    font-size: 26px;
+    color: #16191e;
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+    border-radius: 50%;
+    width: 100px;
+    height: 110px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.cowndown-content .single-count span {
+    display: block;
+}
+
+.cowndown-content .single-count:last-child {
+    margin-right: 0;
+}
+
+.cowndown-content .load-more-btn {
+    color: #16191E;
+    transition: .5s;
+}
+
+.cowndown-content .load-more-btn:hover {
+    color: #B7882D;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 08. Testimonial Area / .testimonail-area
+* ---------------------------------------------------------------------------
+*/
+
+.single-testimonial-items {
+    font-style: italic;
+    line-height: 26px;
+    padding: 0 100px;
+    color: #393939;
+}
+
+.single-testimonial-items span {
+    font-size: 67px;
+    display: inline-block;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.single-testimonial-items .author-name {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+
+
+
+.testimonial-active.owl-carousel .owl-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+
+.testimonial-active.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: 0;
+}
+
+.testimonial-active.owl-carousel .owl-nav button {
+    display: inline-block;
+    border: 1px solid #000 !important;
+    padding: 30px 30px !important;
+    transition: .5s;
+}
+
+.testimonial-active.owl-carousel .owl-nav button:hover {
+    background-color: #16191E;
+}
+
+.testimonial-active.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+    left: auto;
+    position: absolute;
+}
+
+.testimonial-active.owl-carousel .owl-nav button:before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 30px;
+    height: 1px;
+    background: #B7882D;
+    content: "";
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 09. Team Area / .team-area
+* ---------------------------------------------------------------------------
+*/
+
+.single-team-wrapper {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.single-team-wrapper:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.single-team-wrapper:hover:after {
+    opacity: .75;
+    visibility: visible
+}
+
+.social-icons ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-icons ul li {
+    display: block;
+}
+
+.social-icons ul li a {
+    display: inline-block;
+    line-height: 28px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.social-icons {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 60%;
+    right: 0;
+    text-align: center;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.social-icons ul li:last-child a {
+    margin-bottom: 0;
+}
+
+.social-icons ul li a:hover {
+    color: #B7882D;
+}
+
+.single-team-wrapper img {
+    width: 100%;
+}
+
+.single-team-wrapper:hover .social-icons {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+.team-author-info h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.team-author-info p {
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 10. Recent News / .recent-news
+* ---------------------------------------------------------------------------
+*/
+
+.news-content h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.news-content span {
+    color: #393939;
+}
+
+.news-content {
+    line-height: 26px;
+    padding: 0px 28px;
+}
+
+.news-content p {
+    margin: 30px 0 20px;
+}
+
+.news-content a {
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #393939;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.news-content a:hover {
+    color: #B7882D;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 11. Reservation Area / .reservation-area
+* ---------------------------------------------------------------------------
+*/
+
+.reservation-form .form-control::placeholder,
+select::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #393939;
+    opacity: 1;
+    /* Firefox */
+}
+
+.reservation-form .form-control::placeholder:-ms-input-placeholder,
+select::placeholder:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #393939;
+}
+
+.reservation-form .form-control::placeholder::-ms-input-placeholder,
+select::placeholder::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #393939;
+}
+
+.reservation-form .form-control {
+    height: 60px;
+    border-color: #bababa;
+    border-radius: 0;
+    position: relative;
+    color: #393939;
+    font-size: 14px;
+}
+
+.reservation-form .date-picker::after {
+    content: '\25BC';
+    position: absolute;
+    top: 41%;
+    right: 15px;
+    padding: 0 1em;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .5s;
+    color: #000;
+    transform: translateY(-50%);
+}
+
+
+/* Reset Select */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid #bababa;
+}
+
+/* Custom Select */
+.select {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #393939;
+    cursor: pointer;
+}
+
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 0 1em;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .5s;
+    color: #000;
+    transform: translateY(-50%);
+}
+
+/* Transition */
+.select:hover::after,
+.reservation-form .date-picker:hover::after {
+    color: #B7882D;
+}
+.form-message.alert{
+    margin: 20px 0 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 12. Site Footer / .site-footer
+* ---------------------------------------------------------------------------
+*/
+
+.single-footer-item > p {
+    margin: 20px 0 0;
+    line-height: 24px;
+}
+
+.single-footer-item,
+.single-footer-item a,
+.single-footer-item h3 {
+    color: #fff;
+}
+
+.single-footer-item h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 55px;
+}
+
+.single-footer-item ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-lists {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-lists li {
+    display: inline-block;
+    width: 49%;
+    font-size: 12px;
+    line-height: 2.5 !important;
+}
+
+.footer-lists li a {
+    transition: .5s;
+}
+
+.footer-lists li a:hover {
+    color: #B7882D;
+}
+
+.footer-lists li:nth-child(even) {
+    width: 58%;
+}
+
+.footer-lists li:nth-child(odd) {
+    width: 40%;
+}
+
+.single-footer-item ul li,
+.single-footer-item ul li a {
+    text-transform: uppercase;
+    line-height: 26px;
+}
+
+.single-footer-item .load-more-btn {
+    margin-top: 40px;
+    text-decoration: underline #4e4e4e;
+    transition: .5s;
+}
+
+.single-footer-item .load-more-btn:hover {
+    color: #B7882D;
+}
+
+.subscribtion-form input {
+    border: 1px solid #fff;
+    display: inline-block;
+    background: #131313;
+    color: #FFFFFF;
+    padding: 18px 17px;
+    width: 72%;
+    font-size: 12px;
+}
+
+.subscribtion-form button {
+    background: #B7882D;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: 19px 6px;
+    margin-left: -4px;
+    border-radius: 0 50px 50px 0;
+}
+
+.subscribtion-form p {
+    margin: 20px 0 30px;
+    line-height: 24px;
+}
+
+.footer-social-icons a {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 23px;
+    transition: .5s;
+}
+
+.footer-social-icons a:last-child {
+    margin-right: 0;
+}
+
+.footer-social-icons a:hover {
+    color: #B7882D;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 13. Copy Right Area / .copy-right-area
+* ---------------------------------------------------------------------------
+*/
+.copy-right-content p,
+.copy-right-content a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.copy-right-content a {
+    transition: .5s;
+}
+
+.copy-right-content a:hover {
+    color: #B7882D;
+}
+
+.copy-right-content span {
+    color: #B7882D;
+}

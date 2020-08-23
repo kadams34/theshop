@@ -134,14 +134,14 @@ input:focus {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    color: #B7882D;
+    color: #7EC440;
     background: #fff;
     padding: 20px 25px;
     transition: .5s;
 }
 
 .theme-default-btn:hover {
-    background: #B7882D;
+    background: #7EC440;
     color: #fff;
 }
 
@@ -152,7 +152,7 @@ a.load-more-btn, .reservation-form button {
     font-size: 14px;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
-    color: #B7882D;
+    color: #7EC440;
     text-decoration: underline;
     transition: .5s;
 }
@@ -274,7 +274,7 @@ a.load-more-btn, .reservation-form button {
 
 .main-menu ul li a:hover,
 .main-menu ul li a.active {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 .main-menu ul li a:before,
@@ -285,7 +285,7 @@ a.load-more-btn, .reservation-form button {
     top: 50%;
     width: 25px;
     height: 1px;
-    background: #B7882D;
+    background: #7EC440;
     transform: translateY(-50%);
     opacity: 0;
     visibility: hidden;
@@ -339,7 +339,7 @@ a.load-more-btn, .reservation-form button {
 }
 
 .slider-active .owl-dots button.active {
-    background: #B7882D;
+    background: #7EC440;
     width: 40px;
 }
 
@@ -359,7 +359,7 @@ a.load-more-btn, .reservation-form button {
 }
 
 .slider-active .owl-nav button:hover {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 .slider-active .owl-nav button.owl-next:before {
@@ -368,7 +368,7 @@ a.load-more-btn, .reservation-form button {
     top: 4px;
     width: 1px;
     height: 14px;
-    background: #B7882D;
+    background: #7EC440;
     content: "";
 }
 
@@ -489,7 +489,7 @@ a.load-more-btn, .reservation-form button {
 
 .portfolio-list button:hover,
 .portfolio-list button.active {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 .portfolio-list button:after,
@@ -502,7 +502,7 @@ a.load-more-btn, .reservation-form button {
     height: 1px;
     width: 5px;
     transition: .5s;
-    background: #B7882D;
+    background: #7EC440;
     opacity: 0;
     visibility: hidden;
 }
@@ -520,7 +520,7 @@ a.load-more-btn, .reservation-form button {
 
 .portfolio-content > p span,
 .slider-content h1 span {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 
@@ -583,7 +583,7 @@ a.load-more-btn, .reservation-form button {
 }
 
 .cowndown-content .load-more-btn:hover {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 /*
@@ -653,7 +653,7 @@ a.load-more-btn, .reservation-form button {
     top: 50%;
     width: 30px;
     height: 1px;
-    background: #B7882D;
+    background: #7EC440;
     content: "";
     transform: translateX(-50%) translateY(-50%);
 }
@@ -725,7 +725,7 @@ a.load-more-btn, .reservation-form button {
 }
 
 .social-icons ul li a:hover {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 .single-team-wrapper img {
@@ -785,7 +785,7 @@ a.load-more-btn, .reservation-form button {
 }
 
 .news-content a:hover {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 /*
@@ -882,7 +882,7 @@ select {
 /* Transition */
 .select:hover::after,
 .reservation-form .date-picker:hover::after {
-    color: #B7882D;
+    color: #7EC440;
 }
 .form-message.alert{
     margin: 20px 0 0;
@@ -936,7 +936,7 @@ select {
 }
 
 .footer-lists li a:hover {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 .footer-lists li:nth-child(even) {
@@ -960,7 +960,7 @@ select {
 }
 
 .single-footer-item .load-more-btn:hover {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 .subscribtion-form input {
@@ -974,7 +974,7 @@ select {
 }
 
 .subscribtion-form button {
-    background: #B7882D;
+    background: #7EC440;
     color: #fff;
     display: inline-block;
     font-size: 12px;
@@ -1001,7 +1001,7 @@ select {
 }
 
 .footer-social-icons a:hover {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 /*
@@ -1020,9 +1020,9 @@ select {
 }
 
 .copy-right-content a:hover {
-    color: #B7882D;
+    color: #7EC440;
 }
 
 .copy-right-content span {
-    color: #B7882D;
+    color: #7EC440;
 }

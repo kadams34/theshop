@@ -134,14 +134,14 @@ input:focus {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    color: #7EC440;
-    background: #fff;
+    color: #fff;
+    background: #7EC440;
     padding: 20px 25px;
     transition: .5s;
 }
 
 .theme-default-btn:hover {
-    background: #7EC440;
+    background: #3F6B2A;
     color: #fff;
 }
 

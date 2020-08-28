@@ -130,11 +130,6 @@ input:focus {
 
 .theme-default-btn {
     display: inline-block;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: #fff;
     background: #7EC440;
     padding: 20px 25px;
     transition: .5s;
@@ -142,6 +137,11 @@ input:focus {
 
 .theme-default-btn:hover {
     background: #3F6B2A;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
     color: #fff;
 }
 

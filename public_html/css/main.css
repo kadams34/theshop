@@ -33,9 +33,9 @@ Tags:
 # [Typography]
 
 # Body copy:            'Montserrat', sans-serif
-# Heading:              'Playfair Display', sans-serif
+# Heading:              'Roboto', sans-serif
 # Input, textarea:      'Montserrat', sans-serif
-# Links:                'Playfair Display', sans-serif
+# Links:                'Roboto', sans-serif
 
 * --------------------------------------------------------------------------- 
 *
@@ -151,7 +151,7 @@ a.load-more-btn, .reservation-form button {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     color: #7EC440;
     text-decoration: underline;
     transition: .5s;
@@ -427,7 +427,7 @@ a.load-more-btn, .reservation-form button {
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: underline #D6D0C6;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
 }
 
 .discover-img {
@@ -561,7 +561,7 @@ a.load-more-btn, .reservation-form button {
     font-size: 26px;
     color: #16191e;
     background-color: #fff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     border-radius: 50%;
     width: 100px;
     height: 110px;
@@ -610,7 +610,7 @@ a.load-more-btn, .reservation-form button {
     font-style: normal;
     font-weight: 700;
     letter-spacing: 2px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     margin: 0;
 }
 
@@ -776,7 +776,7 @@ a.load-more-btn, .reservation-form button {
 
 .news-content a {
     display: inline-block;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', serif;
     font-size: 14px;
     font-weight: 400;
     color: #393939;

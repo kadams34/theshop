@@ -74,6 +74,10 @@ h6 {
     color: #393939;
 }
 
+h3 span {
+    color: #7EC440;
+}
+
 p {
     margin-bottom: 15px;
 }
@@ -126,6 +130,11 @@ input:focus {
     font-size: 40px;
     text-transform: uppercase;
     line-height: 20px;
+}
+
+.section-title h3 {
+    font-size: 40px;
+    line-height: 48px;
 }
 
 .theme-default-btn {
@@ -418,7 +427,7 @@ a.load-more-btn, .reservation-form button {
 
 .discover-content h2 {
     font-size: 40px;
-    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .discover-content a {

@@ -10,7 +10,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="CoderHut">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/shop/Favicon-TheShop-01.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/shop/shop-favicon-black.png">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
@@ -135,8 +135,8 @@
                 <div class="col-lg-6 col-md-6">
                     <!-- Discover Content -->
                     <div class="discover-content">
-                        <h2>welcome!</h2>
-                        <p class="mt-40 mb-50">The Shop is a local neighborhood restaurant located in historic Nob Hill,
+                        <h2 class="mt-3">About The Shop</h2>
+                        <p class="mt-4 mb-4">The Shop is a local neighborhood restaurant located in historic Nob Hill,
                             focusing on made from scratch food that's unique and familiar at the same time. We strive
                             on making the best breakfast and lunch in town and source as much of our ingredients from
                             local purveyors as possible, including produce, coffee, and baked goods. We strive to give
@@ -147,7 +147,7 @@
                 <div class="col-lg-6 col-md-6">
                     <!-- Discover Img -->
                     <div class="discover-img text-right">
-                        <img src="img/shop/shop-edible.jpg" alt="">
+                        <img src="img/shop/shop-about-us.png" alt="">
                     </div>
                 </div>
             </div><!-- // End Row -->
@@ -525,7 +525,7 @@
                     <div class="single-portfolio-item mb-30">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img class="d-none d-md-block" src="img/breakfast/shop-burrito.jpg" alt="">
+                                <img class="d-none d-md-block" src="img/lunch/shop-carne-adovada-sandwich.png" alt="">
                             </div>
                             <div class="col-lg-8 my-auto">
                                 <!-- Portfolio Content -->
@@ -696,7 +696,7 @@
                     <div class="single-portfolio-item mb-30">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img class="d-none d-md-block" src="img/breakfast/shop-burrito.jpg" alt="">
+                                <img class="d-none d-md-block" src="img/shop/shop-favicon-green.png" alt="">
                             </div>
                             <div class="col-lg-8 my-auto">
                                 <!-- Portfolio Content -->
@@ -717,7 +717,7 @@
                     <div class="single-portfolio-item mb-30">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img class="d-none d-md-block" src="img/breakfast/shop-burrito.jpg" alt="">
+                                <img class="d-none d-md-block" src="img/shop/shop-favicon-black.png" alt="">
                             </div>
                             <div class="col-lg-8 my-auto">
                                 <!-- Portfolio Content -->
@@ -738,7 +738,7 @@
                     <div class="single-portfolio-item mb-30">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img class="d-none d-md-block" src="img/breakfast/shop-burrito.jpg" alt="">
+                                <img class="d-none d-md-block" src="img/shop/shop-favicon-black.png" alt="">
                             </div>
                             <div class="col-lg-8 my-auto">
                                 <!-- Portfolio Content -->
@@ -759,7 +759,7 @@
                     <div class="single-portfolio-item mb-30">
                         <div class="row">
                             <div class="col-lg-4">
-                                <img class="d-none d-md-block" src="img/breakfast/shop-burrito.jpg" alt="">
+                                <img class="d-none d-md-block" src="img/shop/shop-favicon-green.png" alt="">
                             </div>
                             <div class="col-lg-8 my-auto">
                                 <!-- Portfolio Content -->
@@ -992,7 +992,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-title mb-50">
-                        <h2>Meet Our local purveyors</h2>
+                        <h2>some of Our local purveyors/vendors</h2>
                     </div>
                 </div>
             </div><!-- // End Row -->
@@ -1191,6 +1191,44 @@
             </div><!-- // End Row -->
         </div><!-- // End Conataienr -->
     </section><!-- // End Team Area -->
+    <!--    Instagram Section-->
+    <section id="Insta-feed" class="pt-50 pb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <!-- Section Tilte -->
+                    <div class="section-title mb-40">
+                        <h3>FOLLOW OUR <a href="https://www.instagram.com/theshopbreakfastandlunch/"><span>INSTAGRAM</span></a></h3>
+                            <p class="pt-3" style="font-size: 20px">Turn notifications on to stay updated with our specials and Sunday/Thursday dinners, <br>they sell out FAST so be ready!</p>
+                    </div>
+                </div>
+            </div><!-- // End Row -->
+            <div class="row" id="instafeed"></div>
+
+            <!-- The Token Agent service - make sure to use your own URL here -->
+            <script src='https://squidly.herokuapp.com/token.js'></script>
+
+            <!-- The Instafeed.js library (Don't use this URL in production!) -->
+            <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+
+            <!-- Configure and run instafeed -->
+            <script>
+              //console.log(Instafeed)
+              var feed = new Instafeed({
+                accessToken: InstagramToken,
+                limit: 6,
+                template: '<div class="col-md-4 col-6 mb-4"><a href="{{link}}"><img title="{{caption}}" src="{{image}}" class="img-fluid" /></a></div>',
+                // transform: function(item) {
+                //   var d = new Date(item.timestamp);
+                //   item.date = [d.getDate(), d.getMonth(), d.getYear()].join('/');
+                //   return item;
+                // }
+              });
+
+              feed.run();
+            </script>
+        </div>
+    </section>
     <!-- Site Footer -->
     <footer id="colophon" class="site-footer pt-5 black-bg">
         <div class="container">
